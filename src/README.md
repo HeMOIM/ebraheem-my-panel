@@ -2,7 +2,7 @@
 
 **Developed by Ebraheem Abokhalil, Fall 2026**
 Course: SEN0415 Advanced Web Programming, İstanbul Kültür University
-Group members: TODO (or "Individual project")
+Group members:  Individual project
 
 A Grafana panel plugin built with `@grafana/create-plugin`. It renders a panel that displays the developer's name, as required by the assignment.
 
@@ -27,7 +27,7 @@ A Grafana panel plugin built with `@grafana/create-plugin`. It renders a panel t
 
 ## How to install and run
 ```bash
-git clone TODO-your-repo-link
+git clone https://github.com/HeMOIM/ebraheem-my-panel.git
 cd ebraheem-my-panel
 npm install
 npm run dev          # terminal 1: builds the plugin and watches for changes
@@ -47,7 +47,7 @@ npm run build
 1. Installed WSL2 (Ubuntu 22.04), Docker Desktop and Node via nvm.
 2. Generated the plugin with `npx @grafana/create-plugin@latest` (type: panel).
 3. Edited `src/components/SimplePanel.tsx` to add the developer's name.
-4. Removed the early "no data" return so the name is always visible, even with no query data.
+4. Added the developer's name to the panel, and kept it visible in the "no data" view too, so the name always shows.
 5. Ran the plugin in Grafana through the provided Docker setup and verified it loads.
 6. Verified `npm run build` completes successfully.
 
